@@ -4,7 +4,7 @@ Use at your own risk. Making your own seed phrase rather than using a randomly g
 # Memorable Seed
 This tool allows you to create your own seed phrase (mnemonic). Given 23 or 11 [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) seed words, it will providing options for the final word (the checksum), in a way that is easier to remember than a standard [brainwallet](https://en.bitcoin.it/wiki/Brainwallet).
 
-<span style="font-size:64px">Try it here: TBC</span>
+<span style="font-size:64px">Try it here: https://rolznz.github.io/memorable-seed</span>
 
 # Motivation
 Writing down your seed is dangerous even with a 25th word. What if you have nowhere to store your seed? What if you are crossing borders and your seed is compromised?
