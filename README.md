@@ -18,7 +18,7 @@ This project is inspired by [SeedPicker](https://github.com/merland/seedpicker) 
 - Secure entry option to prevent keyloggers **Not implemented yet**
 
 # Example
-Given the 23 word seed phrase `abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon`, the following checksums are generated, any of which you can choose as your final word: `about actual age alpha angle argue artwork attract bachelor bean behind blind bomb brand broken burger cactus carbon cereal cheese city click coach cool coyote cricket cruise cute degree describe diesel disagree donor drama dune edit enemy energy escape exhaust express fashion field fiscal flavor food fringe furnace genius glue goddess grocery hand high holiday huge illness inform insect jacket kangaroo knock lamp lemon length lobster lyrics marble mass member metal moment mouse near noise obey offer once organ own parent phrase pill pole position process project question rail record remind render return ritual rubber sand scout sell share shoot simple slice soap solid speed square stereo street sugar surprise tank tent they toddler tongue trade truly turtle umbrella urge vast vendor void voyage wear wife world wrap`
+Given the 23 word seed phrase `abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon`, the following checksums are generated, any of which you can choose as your final word: `art diesel false kite organ ready surface trouble`
 
 To verify a seed phrase (please do not type/copy a real seed phrase into your PC): https://iancoleman.io/bip39/
 
