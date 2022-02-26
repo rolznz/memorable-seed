@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/memorable-seed/static/css/main.a617e044.chunk.css",
-    "main.js": "/memorable-seed/static/js/main.6f3c2a5c.chunk.js",
-    "main.js.map": "/memorable-seed/static/js/main.6f3c2a5c.chunk.js.map",
+    "main.css": "/memorable-seed/static/css/main.2a09c7a7.chunk.css",
+    "main.js": "/memorable-seed/static/js/main.fcd5b0ec.chunk.js",
+    "main.js.map": "/memorable-seed/static/js/main.fcd5b0ec.chunk.js.map",
     "runtime-main.js": "/memorable-seed/static/js/runtime-main.8a97cc05.js",
     "runtime-main.js.map": "/memorable-seed/static/js/runtime-main.8a97cc05.js.map",
-    "static/js/2.1ebfa78e.chunk.js": "/memorable-seed/static/js/2.1ebfa78e.chunk.js",
-    "static/js/2.1ebfa78e.chunk.js.map": "/memorable-seed/static/js/2.1ebfa78e.chunk.js.map",
+    "static/js/2.21082df0.chunk.js": "/memorable-seed/static/js/2.21082df0.chunk.js",
+    "static/js/2.21082df0.chunk.js.map": "/memorable-seed/static/js/2.21082df0.chunk.js.map",
     "index.html": "/memorable-seed/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/memorable-seed/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.1ebfa78e.chunk.js.LICENSE.txt": "/memorable-seed/static/js/2.1ebfa78e.chunk.js.LICENSE.txt"
+    "static/css/main.2a09c7a7.chunk.css.map": "/memorable-seed/static/css/main.2a09c7a7.chunk.css.map",
+    "static/js/2.21082df0.chunk.js.LICENSE.txt": "/memorable-seed/static/js/2.21082df0.chunk.js.LICENSE.txt",
+    "static/media/logo512.1957eecb.png": "/memorable-seed/static/media/logo512.1957eecb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8a97cc05.js",
-    "static/js/2.1ebfa78e.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.6f3c2a5c.chunk.js"
+    "static/js/2.21082df0.chunk.js",
+    "static/css/main.2a09c7a7.chunk.css",
+    "static/js/main.fcd5b0ec.chunk.js"
   ]
 }
