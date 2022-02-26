@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as bip39 from "bip39";
-export function OfflineTab() {
+export function BrowserTab() {
   const [mnemonic, setMnemonic] = useState("");
   const [finalWords, setFinalWords] = useState("");
   return (

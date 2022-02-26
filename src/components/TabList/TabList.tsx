@@ -1,11 +1,11 @@
 import classnames from "classnames";
 import { Fragment, useState } from "react";
-import { OfflineTab } from "../OfflineTab/OfflineTab";
-import { TrialAndErrorTab } from "../TrialAndErrorTab/TrialAndErrorTab";
+import { BrowserTab } from "../BrowserTab/BrowserTab";
+import { HWTrialAndErrorTab } from "../HWTrialAndErrorTab/HWTrialAndErrorTab";
 
 const tabs: { title: string; component: React.ReactNode }[] = [
-  { title: "WEB APP OFFLINE GENERATOR", component: <OfflineTab /> }, // FIXME:
-  { title: "HARDWARE WALLET TRIAL & ERROR", component: <TrialAndErrorTab /> },
+  { title: "BROWSER WIPEABLE", component: <BrowserTab /> },
+  { title: "HW TRIAL & ERROR", component: <HWTrialAndErrorTab /> },
 ];
 
 export function TabList() {
