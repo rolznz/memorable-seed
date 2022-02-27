@@ -3,15 +3,28 @@ export function HWTrialAndErrorTab() {
     <>
       <ol className="list-decimal">
         <li>Choose a place away from cameras and prying eyes</li>
-        <li>Start advanced recovery on a newly flashed hardware wallet</li>
-        <li>Enter your pre-memorized 11 BIP-39 words</li>
         <li>
-          Start from a random position in the BIP-39 wordlist and pick that word
+          Start <strong>advanced recovery</strong> on a newly flashed hardware
+          wallet. Do not use your computer keyboard!
         </li>
-        <li>If your recovery fails, choose the next word down the list</li>
+        <li>Enter your pre-memorized 12 BIP-39 words</li>
         <li>
-          If your recovery succeeds, you have your final word. Memorize it! Your
-          HW wallet is now ready to use.
+          If your recovery fails, restart the advanced recovery but instead of
+          using the same final word, use the next word down the{" "}
+          <a
+            className="link"
+            target="_blank"
+            href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt"
+            rel="noreferrer"
+          >
+            list
+          </a>
+          .
+        </li>
+        <li>
+          If your recovery succeeds, you have your final word. Re-run the
+          advanced recovery to ensure you made no errors in the input of your
+          seed.
         </li>
       </ol>
       <p>
@@ -19,6 +32,7 @@ export function HWTrialAndErrorTab() {
         word phrase, which should be sufficient for advanced recovery (no
         keyboard input).
       </p>
+      <p>Estimated time required: 1-2 hours.</p>
     </>
   );
 }

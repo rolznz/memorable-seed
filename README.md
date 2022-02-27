@@ -1,6 +1,6 @@
 # Warning
 
-Use at your own risk. Making your own seed phrase rather than using a randomly generated seed has **lower entropy**. Generate your seed **offline** in a safe place free of any cameras or other people. Use the advanced version of Memorable Seed to avoid keyloggers, and restart your PC before re-connecting to the internet. Use the **advanced recovery option** on your **hardware wallet** to enter the seed. Test your seed recovery before adding any meaningful amount of money. Use a strong **25th word**. **Do not record** either your seed or passphrase - they should only be stored within your brain.
+Use at your own risk. Making your own seed phrase rather than using a randomly generated seed has **lower entropy**. Please only use this technique with a hardware wallet and strong 25th word.
 
 # Memorable Seed
 
@@ -10,13 +10,13 @@ Try it here: https://rolznz.github.io/memorable-seed
 
 # Motivation
 
-What if you do not have a permanent place of residence or have nowhere to safely store a copy of your seed? You need a brainwallet. But how do you remember a long list of random words? You can come up with your own seed phrase that you are much less likely to forget because all the words are meaningful to you. It's up to you to decide whether or not the security tradeoff is worth it.
+What if you do not have a permanent place of residence or have nowhere to safely store a copy of your seed? You need a brainwallet. But how do you remember a long list of random words? You can come up with your own seed phrase that you are much less likely to forget because all the words are meaningful to you. There are many downsides of storing a brainwallet, but this tool aims to promote the safe creation of one for people who are set on using one. It's up to you to decide whether or not the security tradeoff is worth it.
 
 # Features
 
 This project is inspired by [SeedPicker](https://github.com/merland/seedpicker) with the following additional features:
 
-- Supports any seed length, plus generation of 12-word mnemonic phrases
+- Supports both 12 and 24 word seed phrases
 - Supplies all possible final word options, rather than just the first
 - Hardware Wallet Trial & Error guide (no extra offline device required, but less control over final seed word)
 
@@ -24,11 +24,11 @@ This project is inspired by [SeedPicker](https://github.com/merland/seedpicker) 
 
 Given the 23 word seed phrase `abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon`, the following checksums are generated, any of which you can choose as your final word: `art diesel false kite organ ready surface trouble`
 
-To verify a seed phrase (please do not type/copy a real seed phrase into your PC): https://iancoleman.io/bip39/
+To verify the example seed phrases you can use https://iancoleman.io/bip39/.
 
-# Feedback and Contributions
+# Future Features
 
-Please open an issue or pull request. Any investigation into how risky this method based on certain factors would be appreciated.
+It would be great to have a method to generate final seed words for a hardware wallet that does not require a second wipeable/offline device. The only secure method I can think of right now is the ability to load a custom firmware on the hardware wallet. There is no safe solution which involves a device that is or will ever be connected to the internet.
 
 # References
 
