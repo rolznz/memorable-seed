@@ -58,8 +58,6 @@ export function BrowserTab() {
                   )
                 ) {
                   finalWords.push(word);
-                } else {
-                  console.log(mnemonic + " " + word + " is invalid");
                 }
               }
               if (!finalWords.length) {
