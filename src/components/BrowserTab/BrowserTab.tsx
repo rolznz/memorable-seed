@@ -76,7 +76,7 @@ export function BrowserTab() {
       {finalWords.length > 0 && (
         <div className="flex gap-4 flex-wrap">
           {finalWords.split(" ").map((word) => (
-            <span className="badge" key="word">
+            <span className="badge" key={word}>
               {word}
             </span>
           ))}
