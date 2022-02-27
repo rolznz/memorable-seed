@@ -38,6 +38,10 @@ It would be great to have a method to generate final seed words for a hardware w
 
 - [Trial and error technique](https://www.reddit.com/r/TREZOR/comments/9gkhj7/if_a_seed_is_entered_and_all_words_are_from_the/)
 
+# Donate
+
+bc1qgv5rj0w4lhe4kxcx7tz07smnwvz2kxdkvkr0cq
+
 ---
 
 Lightbulb image by [Wan](https://www.rawpixel.com/wan)
