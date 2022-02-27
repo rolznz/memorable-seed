@@ -1,6 +1,6 @@
 # Warning
 
-Use at your own risk. Making your own seed phrase rather than using a randomly generated seed has **lower entropy**. Please only use this technique with a hardware wallet and strong 25th word.
+Use at your own risk. Making your own seed phrase rather than using a randomly generated seed has **lower entropy**. Please only use this technique with a hardware wallet and strong passphrase (13th/25th) word.
 
 # Memorable Seed
 
