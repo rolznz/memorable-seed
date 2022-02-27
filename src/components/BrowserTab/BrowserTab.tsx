@@ -16,6 +16,14 @@ export function BrowserTab() {
         <li>Press Generate</li>
         <li>Choose and memorize one of the words</li>
         <li>Immediately turn off and wipe your device</li>
+        <li>
+          Enter your seed using <strong>advanced recovery</strong> on a newly
+          flashed hardware wallet.
+        </li>
+        <li>
+          Re-run the advanced recovery to ensure you made no errors in the input
+          of your seed.
+        </li>
       </ol>
 
       <div className="flex gap-4 w-full justify-center">

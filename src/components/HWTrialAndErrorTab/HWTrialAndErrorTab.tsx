@@ -21,10 +21,10 @@ export function HWTrialAndErrorTab() {
           </a>
           .
         </li>
+        <li>If your recovery succeeds, you have your final word.</li>
         <li>
-          If your recovery succeeds, you have your final word. Re-run the
-          advanced recovery to ensure you made no errors in the input of your
-          seed.
+          Re-run the advanced recovery to ensure you made no errors in the input
+          of your seed.
         </li>
       </ol>
       <p>
